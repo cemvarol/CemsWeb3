@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,24 +16,27 @@ namespace RunSql
         public string ConStr = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            ConStr = ConfigurationManager.AppSettings["ConString"];
-            if (ConStr == "")
-                TBConStr.Text = "Connection String Emtpy";
-            else
-                TBConStr.Text = ConStr;
+            /*      ConStr = ConfigurationManager.AppSettings["ConString"];
+                  if (ConStr == "")
+                      TBConStr.Text = "Connection String Emtpy";
+                  else
+                      TBConStr.Text = ConStr;
+            */
+
+            ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
 
         }
 
         protected void btn_RunSQL(object sender, EventArgs e)
         {
-            if(ConStr == "")
+           /* if(ConStr == "")
             {
                 TBResult.Text = "Please check your connection string";
             }else if(ConStr != TBConStr.Text){
                 UpdateAppSettings("ConString", TBConStr.Text);
                 ConStr = TBConStr.Text;
             }
-
+           */
             using(SqlConnection con = new SqlConnection(ConStr))
             {
                 SqlCommand cmd;
