@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RunSql.Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="RunSql.Default" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,8 @@
                  
             </div>
             <div>
-                <br />
+                
+                
                 <asp:TextBox ID="TBResult" TextMode="MultiLine" runat="server" CssClass="form__result"></asp:TextBox>
             </div>
             <!--
@@ -29,6 +30,7 @@
            
             <div>
                 <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                
             </div>
             
             
