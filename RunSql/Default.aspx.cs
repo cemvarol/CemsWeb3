@@ -8,6 +8,7 @@ using System.Web.Configuration;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using System.Net;
 
 namespace RunSql
 {
@@ -22,6 +23,8 @@ namespace RunSql
                   else
                       TBConStr.Text = ConStr;
             */
+
+hostname.Text=Dns.GetHostName(); 
 
             ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
      
