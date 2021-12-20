@@ -127,4 +127,4 @@ namespace RunSql
             ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
         }
     }
-}
+} 
