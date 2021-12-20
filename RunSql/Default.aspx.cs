@@ -26,7 +26,7 @@ namespace RunSql
 
             //Label1.Text=Dns.GetHostName(); 
 
-            Label1.Text = Dns.GetHostName();
+            Label1.Text = "Hostname of this WebApp is" + Dns.GetHostName();
 
             ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
      
