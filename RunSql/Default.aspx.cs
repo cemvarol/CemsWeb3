@@ -24,6 +24,11 @@ namespace RunSql
             */
 
             ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
+            var videoFrame = new Literal();
+            videoFrame.Text = string.Format(@"<iframe width=""628"" height=""374"" src=""{0}"" frameborder=""0"" allowfullscreen></iframe>", "https://www.youtube.com/embed/9bi9eDZUJPQ");
+            Panel1.Controls.Add(videoFrame);
+
+
 
         }
 
