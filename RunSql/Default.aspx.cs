@@ -24,7 +24,9 @@ namespace RunSql
                       TBConStr.Text = ConStr;
             */
 
-            Label1.Text=Dns.GetHostName(); 
+            //Label1.Text=Dns.GetHostName(); 
+
+            Label1.Text = Dns.GetHostName();
 
             ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
      

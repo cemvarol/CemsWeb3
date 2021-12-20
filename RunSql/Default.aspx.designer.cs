@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RunSql {
-    
-    
-    public partial class Default {
-        
+namespace RunSql
+{
+
+
+    public partial class Default
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace RunSql {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// TBSQL control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace RunSql {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TBSQL;
-        
+
         /// <summary>
         /// RunSQL control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace RunSql {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button RunSQL;
-        
+
         /// <summary>
         /// TBResult control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace RunSql {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TBResult;
-        
+
         /// <summary>
         /// TBConStr control.
         /// </summary>
@@ -56,5 +58,14 @@ namespace RunSql {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TBConStr;
+
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

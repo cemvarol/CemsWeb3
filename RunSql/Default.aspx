@@ -16,9 +16,7 @@
                  <asp:Button ID="RunSQL" runat="server" class="form__button" Text="Run" OnClick="btn_RunSQL" />
                  
             </div>
-            <div>
-                
-                
+            <div>         
                 <asp:TextBox ID="TBResult" TextMode="MultiLine" runat="server" CssClass="form__result"></asp:TextBox>
             </div>
             <!--
@@ -31,11 +29,14 @@
             <div>
                 <asp:Label id="Label1" runat="server"/>
                 
-                <a href="https://cvaz122102str.blob.core.windows.net/datas/BD-CoH.mp4" target="_blank"> Change of Heart</a>
-                
+              <!-- <a href="https://cvaz122102str.blob.core.windows.net/datas/BD-CoH.mp4" target="_blank"> Change of Heart</a>
+                -->
             </div>
             
-            
+             <div>
+               <a href="https://cvaz122102str.blob.core.windows.net/datas/BD-CoH.mp4" target="_blank"> Change of Heart</a>
+           
+            </div>
 
         </div>
     </form>
