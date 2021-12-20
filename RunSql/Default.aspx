@@ -20,10 +20,12 @@
                 <br />
                 <asp:TextBox ID="TBResult" TextMode="MultiLine" runat="server" CssClass="form__result"></asp:TextBox>
             </div>
-            <div>
+            <!--
+             <div>
                 <br />
                  <asp:TextBox ID="TBConStr" runat="server" CssClass="form__ConString"></asp:TextBox>
-            </div>
+            </div> 
+            -->
            
 
         </div>
