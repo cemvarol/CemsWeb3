@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,18 +17,24 @@ namespace RunSql
         public string ConStr = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*      ConStr = ConfigurationManager.AppSettings["ConString"];
+            // Burası ve 
+
+                  ConStr = ConfigurationManager.AppSettings["ConString"];
                   if (ConStr == "")
                       TBConStr.Text = "Connection String Emtpy";
                   else
                       TBConStr.Text = ConStr;
-            */
+            
+
+            // burası arasını acinca web configden
 
             //Label1.Text=Dns.GetHostName(); 
 
             Label1.Text = "Hostname of this WebApp is: " + Dns.GetHostName();
 
-            ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
+            //asagidakini acinca web-app settingden okur (db connection string)
+
+          //  ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DBC"].ConnectionString;
      
         }
 
